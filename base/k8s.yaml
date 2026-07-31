@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: book-api
-          image: yklee2002/book-api
+          image: langmengeang/book-api
           ports:
             - containerPort: 8080
           resources:
@@ -38,5 +38,5 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-      nodePort: 30102
+      nodePort: 30110
   type: NodePort
