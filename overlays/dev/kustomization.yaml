@@ -1,8 +1,9 @@
-namespace: book-dev
-
 resources:
   - ../../base
-  
+  - namespace.yaml
+
+namespace: book-dev
+
 images:
   - name: langmengeang/book-api
     newTag: latest
